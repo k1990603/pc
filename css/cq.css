@@ -1,0 +1,249 @@
+
+html {
+  font-size: 14px;
+}
+
+body{
+  min-width: 1200px;
+}
+
+.mt{
+  margin-top: 40px;
+}
+.mb{
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* .pricing-header {
+  max-width: 700px;
+} */
+
+.homebanner {
+  height: 580px;
+  /* width: 1200px; */
+  background: url('../images/banner.jpg') no-repeat;
+  background-size: cover;
+}
+
+.homebanner >button {
+  color: white;
+  margin-top: 300px;
+}
+
+.homebanner >button:hover{
+  color: white;
+}
+
+.navA{
+  font-size: 16px;
+  margin-top: 15px;
+  color: rgba(255,255,255,.3);
+}
+
+.navA:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navBtn {
+  margin-top: 15px;
+  height:29.5px;
+  width: 81.5px;
+}
+
+.product {
+  /* height: 430px; */
+  /* padding: 30px 0; */
+  padding-bottom: 30px;
+  background-color:#fafafa;
+}
+
+.product .row .col {
+  text-align: center;
+}
+
+.product img+h5{
+  margin: 10px 0;
+}
+
+.signComare .row .col > h4 {
+  color: #333333;
+}
+.signComare h4.text-center {
+  margin: 0;
+  padding: 20px 0;
+}
+.signComare .row .col > h5 {
+  color: #333333;
+}
+
+.signComare .row .col {
+  text-align: center;
+}
+
+.signComare .row .col-6 {
+  /* width: 465px !important; */
+  padding: 0 80px;
+}
+
+.signComare .row .card {
+  box-shadow: 4px 4px 7px 0 rgba(0,0,0,.3);
+}
+
+.signComare .row .card .card-header {
+  /* width: 465px; */
+  color: white;
+  background: url('../images/signture_bg.png') no-repeat;
+  background-size: cover;
+}
+
+.signComare .row .card .card-body > ul {
+  margin-left: 120px;
+  margin: 0 auto;
+}
+
+.signComare .row .card .card-body > ul > li{
+  color: #999999;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 17px;
+  line-height: 35px;
+}
+
+.signComare .row .card .card-body > ul > li>img{
+  width: 25px;
+  height: 25px;
+}
+
+.process .row .col {
+  text-align: center;
+  background-size: cover;
+  /* box-shadow: 4px 4px 7px 0 rgba(0,0,0,.3) */
+}
+
+.coop1 {
+  width: 238px !important;
+  height: 196px;
+  background: url('../images/coo-01.png') no-repeat;
+}
+.coop2 {
+  width: 238px !important;
+  height: 196px;
+  background: url('../images/coo-02.png') no-repeat;
+}
+.coop3 {
+  width: 238px !important;
+  height: 196px;
+  background: url('../images/coo-03.png') no-repeat;
+}
+.coop4 {
+  width: 238px !important;
+  height: 196px;
+  background: url('../images/coo-04.png') no-repeat;
+}
+.coop5 {
+  width: 238px !important;
+  height: 196px;
+  background: url('../images/coo-05.png') no-repeat;
+}
+
+.process .row .col >p {
+  color: white;
+  margin-top: 115px;
+}
+
+.videoDemo .row .col {
+  text-align: center;
+}
+
+.faq {
+  /* width: 100%; */
+  padding-bottom: 20px; 
+  /* padding: 20px 0; */
+  background-color: #fafafa;
+  margin-top: -5px;
+}
+.faq .row h5 {
+  margin-bottom: 10px;
+}
+.faq .row h5+p{
+  margin-bottom: 40px;
+}
+.faq .row .col {
+  text-align: center;
+  /* box-sizing: border-box; */
+  padding: 0;
+}
+
+.faqTop {
+  /* width: 1200px; */
+  margin-left: 0px;
+  margin-bottom: 30px;
+  margin-right: 0;
+  height: 200px;
+  background-image: url('../images/app.jpg');
+  background-size: cover;
+}
+.faq .faqTop .col >p {
+  margin-top: 34px;
+  margin-bottom: 34px;
+  color: white;
+}
+
+.faq .row .col >h5 {
+  color: #666666;
+  font-size: 19.29px;
+  line-height: 27px;
+}
+
+.faq .row .col >p {
+  color: #808080;
+  font-size: 18px;
+  line-height: 25px;
+}
+.faq .row .col >h4{
+  color: #808080;
+}
+
+
+
+.footer {
+  background-color: #0087FF;
+  padding: 30px 0 20px 0;
+  color: #fff;
+  text-align: center;
+  /* width: 1200px; */
+  /* margin-bottom: 30px; */
+}
+
+.footer .row .col >h4 {
+  color: white;
+}
+
+.footer .row .col >h5 {
+  color: white;
+}
+
+.footer .row .col >p{
+  /* font-size: 20px; */
+  color: white;
+}
+
+.footer .row .col-6 {
+  text-align: left;
+  padding-left: 18%;
+}
+
+
+
