@@ -258,4 +258,26 @@ a:hover{
   color: #fff;
 }
 
+.contact {
+  position: fixed;
+	right: 30px;
+  top: 30%;
+  width: 30px;
+}
 
+.top{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	/* width: 30px; */
+	/* height: 30px; */
+	/* background-image: url(../images/top.png); */
+	/* background-size: cover; */
+}
+
+.top a img{
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-top: 50px;
+}
