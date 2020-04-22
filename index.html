@@ -11,29 +11,62 @@
   <body>
 
 
-  <nav class="site-header sticky-top py-1 bg-primary" style="padding-left: 10px;padding-right: 10px;">
-    <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-2" href="/" >
-        <img src="images/pc-logo.png">
+  <nav class="site-header sticky-top py-1 bg-primary">
+    <div class="containers row">
+      <a class="col-xs-2" href="javascript:;" style="margin-top: 10px;">
+        <img src="images/pc-logo.png" style="height: 40px;">
       </a>
-      <a class="text-white navA" href="index.html">官网首页</a>
-      <a class="navA" href="#product">产品优势</a>
-      <a class="navA" href="#signComare">签名对比</a>
-      <a class="navA" href="#process">合作流程</a>
-      <a class="navA" href="#videoDemo">视频演示</a>
-      <a class="navA" href="#faq">Q&A</a>
+      <div class="col-xs-8">
+        <a class="text-white navA col-xs-2" href="index.html">官网首页</a>
+        <a class="navA col-xs-2" href="#product">产品优势</a>
+        <a class="navA col-xs-2" href="#signComare">签名对比</a>
+        <a class="navA col-xs-2" href="#process">合作流程</a>
+        <a class="navA col-xs-2" href="#videoDemo">视频演示</a>
+        <a class="navA col-xs-2" href="#faq">Q&A</a>
+      </div>
+      
       <!-- <div class="text-white navBtn" style="width: 180px;">
          </div> -->
-      
-      <a class="btn btn-sm border border-white text-white navBtn" href="https://www.996apk.com/login">登陆</a>
+      <div class="col-xs-2" style="text-align: right;">
+        <a class="btn btn-sm border border-white text-white navBtn" href="https://www.996apk.com/login">登陆</a>
+      </div>
     </div>
   </nav>
 
-<div class="container">
-
-  <div class="homebanner" align="center">
-    <button type="button" class="btn border border-white" style="font-size: 16px;padding:5px 15px;" onclick="toLogin()">立即体验</button>
-  </div><!--END homebanner -->
+<div class="containers">
+  
+  <!-- <div class="homebanner" align="center"> -->
+    <div class="homebanner">
+    <!-- <button type="button" class="btn border border-white" style="font-size: 16px;padding:5px 15px;" onclick="toLogin()">立即体验</button> -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- 指示器 -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <!-- 轮播图片及说明文字 -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <a href="https://www.996apk.com/login" class="pc_imgBox" style="background-image: url('images/banner1.png')"></a>
+        </div>
+        <div class="item">
+          <a href="https://www.996apk.com/login" class="pc_imgBox" style="background-image: url('images/banner2.png')"></a>
+        </div>
+        <div class="item">
+          <a href="https://www.996apk.com/login" class="pc_imgBox" style="background-image: url('images/banner3.png')"></a>
+        </div>
+      </div>
+      <!-- 控制按钮：左右切换 -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+  </div>
+  <!--END homebanner -->
 
   <div class="product" id="product">
      <div class="row">
@@ -102,7 +135,7 @@
      </div>
 
     <div class="row">
-      <div class="col-6">
+      <div class="col-xs-6">
         <div class="card" style="border:0;">
           <div class="card-header">
             <h4 class="text-center">超级签名</h4>
@@ -117,7 +150,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-xs-6">
         <div class="card" style="border: 0;">
           <div class="card-header">
             <h4 class="text-center">企业签名</h4>
@@ -149,46 +182,46 @@
         </div>
      </div>
 
-    <div class="row" style="margin-left: 15px; margin-right: 5px;">
-
+    <div class="row">
       <div class="col coop1">
-          <p>
+          <div>
             注册会员<br/>
-            登陆管理平台
-          </p>
+            登陆管理平台<br>
+            <span style="color: transparent;">dfdf</span>
+          </div>
       </div>
 
       <div class="col coop2">
-        <p>
+        <div>
           发布应用<br/>
           按照要求上传ipa安装包<br/>
           生成分发链接
-        </p>
+        </div>
       </div>
 
       <div class="col coop3">
-        <p>
+        <div>
           充值体验<br/>
           可以先充值体验<br/>
           再确认大量购买
-        </p>
+        </div>
       </div>
 
       <div class="col coop4">
-        <p>
+        <div>
           确认需求<br/>
           按需充值购买<br/>
           充值量越大越优惠
-        </p>
+        </div>
       </div>
 
       <div class="col coop5">
-        <p>
+        <div>
           分发专属链接<br/>
-          持续稳定服务
-        </p>
+          持续稳定服务<br>
+          <span style="color: transparent;">dfd</span>
+        </div>
       </div>
-
     </div>
 
   </div><!--END process -->
@@ -283,18 +316,18 @@
      </div>
 
     <div class="row">
-       <div class="col-6">
+       <div class="col-xs-6">
         <p><a target="_blank" href="https://t.me/chaoqian99">TELEGRAM:    chaoqian99</a></p>
       </div>
 
-      <div class="col-6">
+      <div class="col-xs-6">
         <p><a href="http://wpa.qq.com/msgrd?v=3&uin=9679365&site=qq&menu=yes">客服QQ:      9679365</a></p>
       </div>
 
-      <div class="col-6">
+      <div class="col-xs-6">
         <p><a target="_blank" href="https://wa.me/17866648882">WHATSAPP:   +1(786) 664-8882</a> </p>
       </div>
-      <div class="col-6">
+      <div class="col-xs-6">
         <p><a target="_blank" href="mailto:9679365@qq.com">QQ邮箱: 9679365@qq.com</a> </p>
       </div>
     </div>
@@ -321,22 +354,26 @@
   </div><!--END footer -->
 
 </div><!--END container --> 
-
-<div class="top contact">
-  <a class="text-white navBtn" target="_blank" href="https://wa.me/17866648882"><img src="./images/phone.png" alt=""></a>
-      <a class="text-white navBtn" target="_blank" href="https://t.me/chaoqian99"><img src="./images/tel.png" alt=""></a>
-      <a class="text-white navBtn" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes"><img src="./images/qq.png" alt=""></a>
+<div class="top lefts" onclick="turn()">
+  <a class="text-white navBtn" href="javascript:;"><img src="./images/_download2.png" alt=""></a>
 </div>
+<div class="top contact run-ball-1"><a class="text-white navBtn" target="_blank" href="https://wa.me/17866648882"><img src="./images/phone.png" alt=""></a></div>
+<div class="top contact run-ball-2"><a class="text-white navBtn" target="_blank" href="https://t.me/chaoqian99"><img src="./images/tel.png" alt=""></a></div>
+<div class="top contact run-ball-3"><a class="text-white navBtn" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes"><img src="./images/qq.png" alt=""></a></div>
+
+<!-- <div class="top contact">
+  <a class="text-white navBtn" target="_blank" href="https://wa.me/17866648882"><img src="./images/phone.png" alt=""></a>
+  <a class="text-white navBtn" target="_blank" href="https://t.me/chaoqian99"><img src="./images/tel.png" alt=""></a>
+  <a class="text-white navBtn" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=123456789&site=qq&menu=yes"><img src="./images/qq.png" alt=""></a>
+</div> -->
 <div class="top" id="tops">
-  <!-- <em></em> -->
-  
-     
   <a href="#test1" style="display: block; width: 100%;height: 100%;">
     <img src="./images/top.png" alt="">
   </a>
   <!-- </a> -->
 </body>
 <script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
   function pl() {
 		if(vd.paused) {
@@ -351,5 +388,18 @@
   $(".navA").on("click", function(e) {
     $(this).addClass("text-white").siblings(".navA").removeClass("text-white")
   })
+  function turn() {
+		if($(".run-ball-1").hasClass("run-up")){
+			$(".lefts img").attr("src","./images/_download2.png")
+			$(".run-ball-1").addClass("run-down").removeClass("run-up")
+			$(".run-ball-2").addClass("run-down").removeClass("run-up")
+			$(".run-ball-3").addClass("run-down").removeClass("run-up")
+		}else {
+			$(".lefts img").attr("src","./images/up.png")
+			$(".run-ball-1").addClass("run-up").removeClass("run-down")
+			$(".run-ball-2").addClass("run-up").removeClass("run-down")
+			$(".run-ball-3").addClass("run-up").removeClass("run-down")
+		}
+	}
 </script>
 </html>
