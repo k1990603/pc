@@ -41,7 +41,7 @@ nav {
 }
 .pc_imgBox{
   display: block;
-  height: 400px;
+  height: 580px;
   width: 100%;
   background-size: cover;
   background-position:  center;
@@ -56,15 +56,18 @@ nav {
   position: relative;
 }
 
-.homebanner >button {
+.homebanner button {
   color: white;
+  background-color: transparent;
+  border:1px solid #fff;
   margin: 0 auto;
   position: absolute;
-  top: 300px;
+  top: 320px;
+  left: 45%;
   /* margin-top: 300px; */
 }
 
-.homebanner >button:hover{
+.homebanner button:hover{
   color: white;
 }
 
@@ -113,7 +116,7 @@ nav>div.row{
   background-color:#fafafa;
 }
 
-.product .row .col {
+.product .row .col,.product .row .col-xs-4,.product .row .col-xs-6 {
   text-align: center;
 }
 
