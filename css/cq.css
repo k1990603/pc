@@ -94,7 +94,13 @@ nav>div.row{
   flex-direction:column;
   justify-content:space-between; */
 }
-
+.login {
+  border:1px solid #fff;
+  border-radius: 4px;
+}
+.login:hover{
+  color: #fff;
+}
 .navBtn {
   margin-top: 15px;
   height:29.5px;
